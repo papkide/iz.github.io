@@ -55,7 +55,7 @@ function sendKeenEvent(_msg, _data) {
  * YouTube iframe API required setup
  */
 var plyrPlayer;
-var youTubeDataApiKey = "AIzaSyCxVxsC5k46b8I-CLXlF3cZHjpiqP_myVk";
+var youTubeDataApiKey = "AIzaSyBd0Sco9vjIhVwq_I3thB0xv8VQ6E5f9xY";
 var currentVideoID;
 
 var errorMessage = {
@@ -343,7 +343,7 @@ var ZenPlayer = {
  * Create a twitter message with current song if we have one.
  */
 function updateTweetMessage() {
-    var url = URI("https://ZenPlayer.Audio");
+    var url = URI("https://papkide.github.io");
 
     var opts = {
         text: "Listen to YouTube videos without the distracting visuals",
